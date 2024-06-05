@@ -158,11 +158,19 @@ h2 {
 
 #skills li {
     margin: 10px;
-    width: 40%;
+    width: 45%;
     font-size: 19px;
     font-weight: 400;
 }
 
+@media screen and (max-width: 600px)
+{
+  #skills li{
+    font-size: 14px;
+    margin-right: 8px;
+  }
+
+}
 #projects {
     background-color: orange;
     padding: 30px 20px;
