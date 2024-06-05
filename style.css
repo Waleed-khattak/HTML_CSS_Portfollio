@@ -207,6 +207,13 @@ h2 {
     margin-right: 20px;
 }
 
+@media screen and (max-width: 600px)
+{
+ #contact li a {
+ display: block;
+}
+}
+
 footer {
     background-color: #333;
     color: #fff;
