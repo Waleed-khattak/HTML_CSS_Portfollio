@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    background-color: orange;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .2s ease-in;
+}
+
+nav ul li:hover{
+    background-color: orangered;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 545px) {
+    header{
+        padding-bottom: 22px;
+    }
+    nav ul li:nth-child(5){
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    nav ul li:nth-child(4){
+        position: relative;
+        top: 20px;
+    }
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border-left: 4px solid #4CAF50;
+    padding-left: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: orange;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+#home {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: 190px;
+}
+
+#home span{
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+
+#home h3{
+ font-size: 30px;
+ margin-bottom: 12px;
+}
+
+#home p{
+    color: gray;
+}
+
+#home .btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 22px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#about {
+    background-color: orange;
+    padding: 30px 20px;
+}
+
+#skills {
+    background-color: #f9f9f9; 
+    padding: 10px 20px;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills li {
+    margin: 10px;
+    width: 40%;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#projects {
+    background-color: orange;
+    padding: 30px 20px;
+}
+
+#projects .project{
+    margin: 20px 0;
+}
+
+#contact {
+    background-color: #f9f9f9; 
+    padding: 10px 20px;
+}
+
+#contact h2{
+    text-align: left;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+#contact ul{
+    list-style-type: none;
+}
+
+#contact li {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#contact li a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    display: inline;
+}
+
+#contact i {
+    margin: 20px 0px;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
